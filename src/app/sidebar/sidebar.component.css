@@ -1,0 +1,38 @@
+.sidebar {
+  z-index: 2;
+  float: left;
+  position: absolute;
+  top: 20%;
+  width: 10%;
+}
+
+.menu {
+  padding: 0;
+  margin: 0;
+}
+
+.main-nav li {
+  list-style: none;
+  margin-bottom: 1px;
+}
+
+.main-nav-link {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  padding: 10px 15px;
+  border: 1px solid #242b2e;
+  border-radius: 10px;
+  background: linear-gradient(to top, #333b3f, #2e363a);
+  width: 100%;
+  text-align: left;
+  margin: 3px 0;
+}
+
+.main-nav-link:hover {
+  background: linear-gradient(to top, #31bdbb, #18a3a1);
+}
